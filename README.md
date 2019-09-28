@@ -29,7 +29,7 @@
 11. Create `index`, `show`, `new`, `create`, & `destroy` actions in your pokemons controller.
     - Include error handling in the create to account for reaching the trainer's limit of 6 pokemon.
 
-##Frontend
+## Frontend
 
 1. Confirm that the fetches to your two URLs returns the data in the correct format.
 2. We are going to copy pre-written code into our `frontend` folder to expedite lecture flow.
