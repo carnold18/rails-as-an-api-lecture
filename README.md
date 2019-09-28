@@ -1,5 +1,8 @@
 # Instructions for Lecture:
 
+
+## Backend
+
 1. Create your backend file structure for Rails. We suggest using PostgreSQL for deployment purposes. 
     - `rails new pokemon-teams-backend --api --database=postgresql`
     - The `--api` flag configures it to handle API calls
@@ -21,4 +24,12 @@
 8. `rails db:migrate`
 9. `rails db:seed`
 10. Create `index` and `show` actions in your trainers controller.
+    - Note that within your controller actions, you need to _render_ your _json_
+    - `render json: declared_instance_variable`
 11. Create `index`, `show`, `new`, `create`, & `destroy` actions in your pokemons controller.
+    - Include error handling in the create to account for reaching the trainer's limit of 6 pokemon.
+
+##Frontend
+
+1. Confirm that the fetches to your two URLs returns the data in the correct format.
+2. We are going to copy pre-written code into our `frontend` folder to expedite lecture flow.
