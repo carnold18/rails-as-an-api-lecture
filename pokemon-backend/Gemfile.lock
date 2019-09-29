@@ -152,13 +152,13 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
   rack-cors
-  rails (~> 5.2.2)
+  rails (~> 5.2.3)
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.3.7p456
+   ruby 2.6.1p33
 
 BUNDLED WITH
-   1.16.2
+   1.17.3
