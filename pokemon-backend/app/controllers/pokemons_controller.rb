@@ -1,4 +1,5 @@
 require 'faker'
+require 'byebug'
 
 class PokemonsController < ApplicationController
 
@@ -19,7 +20,9 @@ class PokemonsController < ApplicationController
     def create
         @trainer = Trainer.find(params[:trainer_id])
         if @trainer.pokemons.count >= 6
-            render json: { status: "error", message: "Trainer can't exceed 6 pokemon!"}
+            @trainer.errors.messages["alert"] = "Sorry, you can only add 6 pokemon!"
+            render :json => { :errors =>  @trainer.errors.messages }
+            nil
         else
             @pokemon = Pokemon.new(pokemon_params)
             @pokemon.nickname = Faker::Name.first_name

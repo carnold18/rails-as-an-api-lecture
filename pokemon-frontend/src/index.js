@@ -85,8 +85,14 @@ addPokemon = (trainerId, card) => {
             trainer_id: trainerId
         })
     })
-    .then(response =>response.json())
-    .then(pokemon => renderPokemon(pokemon, card))
+    .then(response => response.json())
+    .then( pokemon => {
+        if (pokemon.errors) {
+            window.alert(pokemon.errors["alert"])
+        } else {
+            renderPokemon(pokemon,card)
+        }
+    })
 }
 
 releasePokemon = (pokemonId) => {
