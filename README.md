@@ -1,8 +1,8 @@
 # Instructions for Lecture:
 
-    **Why use Rails as an API?**
+**Why use Rails as an API?**
     
-    "The fundamental difference between an API and a regular Rails app is that an API returns data for further processing, rather than data that is meant to be viewed directly. Therefore, rather than producing an HTML document (with CSS and/or Javascript) that looks pretty, APIs produce simple information structures that can be further processed by whatever will be consuming our API." - Thibaud Clement, Stack Overflow
+> The fundamental difference between an API and a regular Rails app is that an API returns data for further processing, rather than data that is meant to be viewed directly. Therefore, rather than producing an HTML document (with CSS and/or Javascript) that looks pretty, APIs produce simple information structures that can be further processed by whatever will be consuming our API." - Thibaud Clement, Stack Overflow
 
 ## Backend
 
