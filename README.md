@@ -45,3 +45,4 @@
 
  - [Rails Error Handling](https://www.thegreatcodeadventure.com/rails-api-painless-error-handling-and-rendering-2/)
  - [Rails API Doc](https://guides.rubyonrails.org/api_app.html)
+ - [sqlite vs. postgres](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
