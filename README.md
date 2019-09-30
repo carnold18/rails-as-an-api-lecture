@@ -38,6 +38,6 @@
 2. We are going to copy pre-written code into our `frontend` folder to expedite lecture flow.
 
 
-### Resource(s):
+## Resource(s):
 
  - [Rails Error Handling](https://www.thegreatcodeadventure.com/rails-api-painless-error-handling-and-rendering-2/)
