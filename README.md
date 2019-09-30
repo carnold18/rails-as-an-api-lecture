@@ -11,8 +11,8 @@
     - The `--api` flag configures it to handle API calls
 2. `gem install faker`
 3. `gem install active_model_serializers`
-    - Be sure to install this BEFORE you install your resources so that they are properly linked.
-    - Your serializers allow access to specific attributes and creates the appropriate ActiveRecord associations when querying for data from your frontend
+    - Be sure to install this BEFORE you install your resources so that they are properly linked
+    - Your serializers allow access to specific attributes and implements ActiveRecord associations when querying for data to render to your frontend
 4. Generate resources for your models:
     - `rails g resource trainer name`
     - `rails g resource pokemon species nickname trainer:references`
@@ -38,7 +38,13 @@
 ## Frontend
 
 1. Confirm that the fetches to your two URLs returns the data in the correct format.
-2. We are going to copy pre-written code into our `frontend` folder to expedite lecture flow.
+2. We are going to start with pre-written code in our *frontend* folder to expedite lecture flow.
+    - Fetch the trainers (with their "pokemons" from the `serializer`)
+    - Render the trainers
+    - Render a trainer
+    - Render the pokemons
+    - Render a pokemon
+    - Release a pokemon
 
 
 ## Resource(s):
