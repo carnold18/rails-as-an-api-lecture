@@ -31,6 +31,15 @@
 
 *Note:* Do not forget that you will have to nest an additional attribute in the serializer that "holds many" of the other model.
 
+Resource(s):
+
+ - [Rails Error Handling](https://www.thegreatcodeadventure.com/rails-api-painless-error-handling-and-rendering-2/)
+
+
+## Frontend
+
+1. Confirm that the fetches to your two URLs returns the data in the correct format.
+2. We are going to copy pre-written code into our `frontend` folder to expedite lecture flow.
 ## Frontend
 
 1. Confirm that the fetches to your two URLs returns the data in the correct format.
